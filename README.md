@@ -8,7 +8,7 @@ no terminal, local installation or AWS account is needed.
 1. Open [the ESADE course template](https://github.com/joseporiolrius/hello-world).
 2. Choose **Use this template → Create a new repository**.
 3. Select your own account, name the repository **hello-world**, and choose **Private**.
-4. Add **oriolrius** in **Settings → Collaborators → Add people**.
+4. Add **joseporiolrius** in **Settings → Collaborators → Add people**.
 5. Open **Actions → hello**, open the run and read the log. Find the output
    from `hello.py`: `hello, world`.
 
