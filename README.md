@@ -47,5 +47,6 @@ Also extend `ABOUT.md` with what you want from this course, and write an
 
 This template stays focused on S01. Keep working in **your private copy**.
 From S02, the course instructions import versioned starter additions from
-[`oriolrius/hello-world`](https://github.com/oriolrius/hello-world).
+this same [`joseporiolrius/hello-world`](https://github.com/joseporiolrius/hello-world)
+upstream. Its default branch stays focused on S01; later sessions use named starter tags.
 Do not replace your repository or discard your journal and evidence.
