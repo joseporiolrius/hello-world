@@ -15,7 +15,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v7
       - name: Set up uv
-        uses: astral-sh/setup-uv@v10
+        uses: astral-sh/setup-uv@v10.2.0  # setup-uv publishes no moving major tag
         with:
           # No dependencies and no uv.lock in S1: a cache would only warn.
           enable-cache: false
