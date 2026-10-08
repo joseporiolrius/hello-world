@@ -3,6 +3,7 @@
 # S1 — they only need to see it go green in the Actions tab and upload the
 # screenshot as evidence. The student-authored quality workflow (ci.yml) is
 # written later in S3 and is deliberately absent here.
+# Action versions run on Node.js 24 (no Node 20 deprecation warning).
 name: hello
 on:
   push:
@@ -12,8 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Set up uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v10
+        with:
+          # No dependencies and no uv.lock in S1: a cache would only warn.
+          enable-cache: false
       - name: Run the bootstrap
         run: uv run python hello.py
