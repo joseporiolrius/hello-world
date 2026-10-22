@@ -4,6 +4,7 @@ Proves the deliberate YAML fault fails to load (before the app could bind a
 port) and that the repaired/valid settings load cleanly. The full HTTP contract
 after repair is covered by test_contract.py.
 """
+
 from __future__ import annotations
 
 from pathlib import Path

@@ -3,6 +3,7 @@
 A malformed YAML file (the deliberate S2 trap) raises clearly instead of
 silently starting with wrong values.
 """
+
 from __future__ import annotations
 
 import os

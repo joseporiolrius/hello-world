@@ -4,6 +4,7 @@ Proves GET / -> 200 JSON with the server hostname, /health -> 200, /boom -> 500,
 an unknown path -> 404 and POST / -> 405. Runs the real server on an ephemeral
 port, so it exercises exactly what curl / container / Kubernetes probes hit.
 """
+
 from __future__ import annotations
 
 import json

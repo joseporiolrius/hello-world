@@ -1,4 +1,5 @@
 """The HTTP handler realizing the canonical hello-world contract."""
+
 from __future__ import annotations
 
 import json
