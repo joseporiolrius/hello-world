@@ -1,7 +1,7 @@
 # hello-world runtime contract inputs (host/port/greeting).
-# Valid here; the S2 starter increment ships a deliberately broken copy for
-# students to fix. Later container and Kubernetes checks exercise the SAME
+# S2 lab: this file ships with two deliberate YAML faults for you to repair
+# (see docs/S2_LAB.md). Later container and Kubernetes checks exercise the SAME
 # responses this configures.
 host: 0.0.0.0
-port: 8000
-greeting: "Hello, world!"
+port:8000
+	greeting: "Hello, world!"
