@@ -16,7 +16,7 @@ Keep the repository private. Submit its URL through the eCampus form.
 
 ## Lab — edit, commit, verify, journal
 
-1. On your repository page, press **.** to open github.dev.
+1. On your repository page, press **.** to open VS Code in the browser (vscode.dev). The first time, choose **Sign in with GitHub**.
 2. Fill in `ABOUT.md`: name, degree track, and one system you use daily
    that you could not operate yourself.
 3. Commit and push with `docs: add student profile`.
