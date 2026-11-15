@@ -1,4 +1,5 @@
 """`uv run hello-world` entry point: load settings, bind and serve."""
+
 from __future__ import annotations
 
 from hello_world.app import make_server
