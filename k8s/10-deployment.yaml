@@ -1,7 +1,8 @@
 # hello-world Deployment (APP-13): two replicas of the student's OWN released
 # image, with liveness/readiness probes on the fixed /health:8000 contract.
-# The reference student substitutes their actual GHCR release tag below and the
-# namespace-scoped `ghcr-pull` imagePullSecret (created after the namespace).
+# The image line below is a placeholder: put your GitHub user name (lower case)
+# and your release tag in it. The namespace-scoped `ghcr-pull` imagePullSecret
+# is created after the namespace.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -23,7 +24,7 @@ spec:
         - name: ghcr-pull
       containers:
         - name: app
-          image: ghcr.io/oriolrius/hello-world:dbai24-s8-1.1.0   # student: substitute YOUR release tag
+          image: ghcr.io/<your-github-username>/hello-world:<your-older-release-tag>   # student: YOUR account and tag
           ports:
             - containerPort: 8000
           readinessProbe:
