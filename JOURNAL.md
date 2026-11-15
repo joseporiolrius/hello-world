@@ -1,28 +1,26 @@
-# Journal
+# Engineering journal
 
-## AI-use contract (sign before using any AI assistance)
+## AI-use contract acknowledgment
 
-I understand that AI tools may assist my learning, that I remain responsible for
-everything I submit, and that I will record where and how I used AI in the
-entries below. I will not paste course solutions I did not understand.
+AI assistance is allowed in labs, homework, the project and practical exams.
+I remain responsible for understanding and verifying everything I submit.
+I will record my reasoning and evidence, and can be asked to explain my own work.
+Closed-book quizzes and theory exams allow no AI or notes.
 
-- **Signed:** _<your full name>_
-- **Date:** _<YYYY-MM-DD>_
+- **Name:** _<your full name>_
+- **Session:** _<S01>_
 
-## Entries
+## Entry format
 
-Use the **four-line** format for every entry:
+Use 5–10 specific lines per entry, including all four fields below.
+If the AI was correct, record how you proved it; do not invent a mistake.
 
-```
-Date: <YYYY-MM-DD>
-Did: <what you did>
-AI: <tool + how you used it, or "none">
-Next: <what you will do next>
-```
+## S01 — _<what you were doing>_
 
-### Example (replace with your own)
+- **Asked:** _<AI tool and the question or prompt>_
+- **Wrong:** _<what it got wrong or overstated, or how you proved it was right>_
+- **Changed:** _<what you changed or concluded>_
+- **Verified:** _<the file, run log or other evidence you checked>_
 
-Date: 2026-01-01
-Did: Created the repo from the template and pushed my first commit.
-AI: none
-Next: Fix the deliberate README typo and upload the green Actions screenshot.
+For homework without AI, state that you used none and explain in your own words
+what you did and how you verified it.

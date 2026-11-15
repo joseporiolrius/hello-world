@@ -13,7 +13,7 @@ ssh -i dbai.pem ubuntu@<VM_IP>
 # [VM] — the profile already installed git + uv; do NOT install another uv
 uv --version          # must match the pinned S2 profile
 git --version
-ssh-keygen -t ed25519 # add the PUBLIC key to GitHub for git-over-SSH
+ssh-keygen -t ed25519 -C "dbai-vm" # add the PUBLIC key to GitHub for git-over-SSH
 ```
 
 ## 1. The YAML trap → repair → contract
@@ -24,7 +24,7 @@ A clean launch fails with a YAML error **before** the app binds a port:
 
 ```bash
 # [VM]
-uv sync
+uv sync --locked
 uv run hello-world     # crashes: yaml.scanner.ScannerError (nothing bound yet)
 # fix config/settings.yaml (spaces, not tabs; "key: value"), then:
 uv run hello-world     # now serving on 0.0.0.0:8000
