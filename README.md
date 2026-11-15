@@ -26,10 +26,12 @@ Keep the repository private. Submit its URL through the eCampus form.
 6. Acknowledge the AI-use contract in `JOURNAL.md` with your name and **S01**.
    Write your first entry using **Asked / Wrong / Changed / Verified**, then commit
    with `docs: acknowledge AI contract and add journal entry S01`.
-7. Upload a green-run screenshot as `evidence/s01-actions-green.png` through
+7. Take a screenshot of the **Actions** run list: your commit messages with their
+   green checks. Upload it as `evidence/s01-actions-green.png` through
    GitHub's **Add file → Upload files**. Use `docs: add S01 evidence screenshot`.
 
-You should have at least **three commits of your own**, a personalized profile,
+You should have at least **three commits of your own**, all with a Conventional
+Commit message (GitHub's "Initial commit" is not yours), a personalized profile,
 a specific journal entry, the screenshot, and a green latest Actions run.
 
 ## Homework — fix the deliberate typo
@@ -40,8 +42,10 @@ browser, commit with `fix: correct typo in README`, and check Actions again.
 <!-- there is a typo in this section -->
 > Welcome to the DBAI course — this is your frist repository.
 
-Also extend `ABOUT.md` with what you want from this course, and write an
-`S01-homework` journal entry. Follow the full homework brief on eCampus.
+Also extend `ABOUT.md` with what you want from this course
+(`docs: extend student profile`). Then read your commit history and the logs of
+your first and your latest Actions runs, and write an `S01-homework` journal entry
+(`docs: add journal entry S01-homework`). Follow the full homework brief on eCampus.
 
 ## What comes next
 
