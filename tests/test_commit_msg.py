@@ -5,6 +5,7 @@ non-conventional message and accepts the course Conventional Commit types plus
 the generated-merge-prefix policy. This is the LOCAL check; the server-side
 event-range check (student-authored CI) is independently required.
 """
+
 from __future__ import annotations
 
 import shutil
